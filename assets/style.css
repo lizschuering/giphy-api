@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    font-family: 'Kranky', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.instructions {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.subtitle {
+    font-size: 14px;
+}
+
+#gifButtons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button, #addWord {
+    margin: 5px;
+    background-color: #2ba093; /* (BMO Blue) */
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+}
+
+.buttonForm {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gifs-appear-here {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.gifText {
+    text-align: center;
+}
+
+.gifDIV {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

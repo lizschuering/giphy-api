@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adventure Time GIFs!</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kranky|Open+Sans" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="header">Adventure Time GIFs!</h1>
+        <div class="instructions">
+            <div class="title">Click a button to generate some GIFs!</div>
+            <div class="subtitle">(Then click an image to make it move!)</div>
+        </div>
+        <div id="gifButtons"></div>
+        <div class="buttonForm">
+            <form>
+                <label for="userInfo">Or add your own!</label>
+                <input type="text" id="userInfo" name="userInfo" placeholder="ex. Fiona and Cake">
+                <input id="addWord" type="submit" value="Add a new word">
+            </form>
+        </div> 
+    </div>
+    <div id="gifs-appear-here"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./assets/app.js"></script>
+    
+</body>
+</html>

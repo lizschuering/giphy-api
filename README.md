@@ -13,7 +13,7 @@ The app was made with HTML, CSS (including Flexbox for the layout and Google Fon
 
 ## What Challenges Did you Encounter?
 
-The play/pause functionality only works on the 10 most recently generated GIFs work and needs troubleshooting. I'm having trouble understanding why as the play/pause functionality is linked to an 
+The play/pause functionality only works on the 10 most recently generated GIFs work and needs troubleshooting. I'm having trouble understanding why as the play/pause functionality is linked to a class on each individual gif (including ones that were not recently generated).
 
 ## What's Next?
 
